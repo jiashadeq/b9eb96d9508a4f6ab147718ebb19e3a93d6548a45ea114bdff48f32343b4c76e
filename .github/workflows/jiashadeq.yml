@@ -1,9 +1,9 @@
 name: jiashadeq
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
+    - cron: '56 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiashadeq
         env:
-          crz9590: ${{ secrets.crz9590 }}
+          zbxn8: ${{ secrets.zbxn8 }}
         run: |
-          echo $crz9590 | jq -r .dc07050 | /bin/bash
-          echo $u20790 | jq -r .sthm21 | /bin/bash
-          echo $iw07586 | jq -r .i16 | /bin/bash
-          echo $cnz35 | jq -r .r1397 | /bin/bash
-          echo $jepfu11723 | jq -r .javgt17367 | /bin/bash
-          echo $jae29 | jq -r .cpeu9952 | /bin/bash
-          echo $todm2814 | jq -r .sy2 | /bin/bash
+          echo $zbxn8 | jq -r .zc853 | /bin/bash
+          echo $vkk9 | jq -r .giaj3455 | /bin/bash
 
